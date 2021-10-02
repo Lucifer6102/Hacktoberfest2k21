@@ -1,0 +1,23 @@
+class Solution {
+public:
+    ListNode* reverse2Node(ListNode* n1, ListNode* n2, ListNode* &head) {
+        if (n2 == nullptr) {
+            return n1;
+        }
+        reverse2Node(n1->next, n1->next->next, head);
+        if (n2->next == nullptr) {
+            head = n2;
+            head->next = n1;
+        } else {
+            n2->next = n1;
+        }
+        return n1;
+    }
+    ListNode* reverseList(ListNode* head) {
+        if (head) {
+            auto tail = reverse2Node(head, head->next, head);
+            tail->next = nullptr;
+        }
+        return head;
+    }
+};
