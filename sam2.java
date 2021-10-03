@@ -13,6 +13,7 @@ class sam2
         sam2 hacker=new sam2();
         hacker=null;
         System.gc();
+		//what does the above command do?
     }
 }
     
