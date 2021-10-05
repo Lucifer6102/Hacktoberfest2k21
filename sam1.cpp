@@ -2,10 +2,10 @@
 #define ll long long int
 #define N 1000
 #define M 1000000007
-#define f(i, a, b) for (ll i = (ll)a; i <= (ll)b; i++)
-#define rf(i, a, b) for (ll i = (ll)a; i >= (ll)b; i--)
+#define f(i, a, b) for (ll i = (ll)a; i <= (ll)b; i++)    // defining for loop forward
+#define rf(i, a, b) for (ll i = (ll)a; i >= (ll)b; i--)   // defing revwerse for loops
 #define po pop_back
-#define pb push_back
+#define pb push_back               // use for inserting elements
 #define lb lower_bound
 #define fi first
 #define se second
