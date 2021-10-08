@@ -12,7 +12,7 @@ int main()
 
     int arr[] = { 12, 3, 5, 7, 19 };
 
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int n = sizeof(arr) / sizeof(arr[0]); //size of array
 
     int k=4;
  
