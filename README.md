@@ -6,3 +6,6 @@
 
 # GOAL TO ACHIEVE
 # Vision is everything. 
+
+
+# Honesty Is The Best Policy
