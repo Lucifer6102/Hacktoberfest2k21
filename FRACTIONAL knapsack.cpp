@@ -14,9 +14,6 @@ struct Item {
        this->weight=weight;
     }
 };
-  
-// Comparison function to sort Item according to val/weight
-// ratio
 bool cmp(struct Item a, struct Item b)
 {
     double r1 = (double)a.value / (double)a.weight;
