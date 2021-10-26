@@ -62,11 +62,7 @@ struct Node* addTwoLists(struct Node* first, struct Node* second)
             end->next=new Node(sum);
             end=end->next;
         }
-        
-        if(f1!=NULL)
-        f1=f1->next;
-        if(start!=NULL)
-        f2=f2->next;
+
     }
     if(carry>0)
     end->next=new Node(carry);
