@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// to check if the the position searched is valid or not 
 bool isValid(vector<vector<char>> board,int po,int i,int j){
     char c='0'+po;
     for(int m=0;m<board.size();m++){
