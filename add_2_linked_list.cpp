@@ -14,6 +14,7 @@ Node* reverseList( Node *head)
     head1=prev;
     return head1;
 }
+
 struct Node* addTwoLists(struct Node* first, struct Node* second)
 {
     Node* small;
