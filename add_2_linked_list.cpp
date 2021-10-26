@@ -14,16 +14,7 @@ Node* reverseList( Node *head)
     head1=prev;
     return head1;
 }
-int length(Node* head)
-{
- int c=0;
- while(head!=NULL)
- {
-     head=head->next;   
-     c++;
- }
- return c;
-}
+
 struct Node* addTwoLists(struct Node* first, struct Node* second)
 {
     Node* small;
@@ -62,11 +53,7 @@ struct Node* addTwoLists(struct Node* first, struct Node* second)
             end->next=new Node(sum);
             end=end->next;
         }
-        
-        if(f1!=NULL)
-        f1=f1->next;
-        if(start!=NULL)
-        f2=f2->next;
+
     }
     if(carry>0)
     end->next=new Node(carry);

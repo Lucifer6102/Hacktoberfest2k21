@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// to check if the the position searched is valid or not 
 bool isValid(vector<vector<char>> board,int po,int i,int j){
     char c='0'+po;
     for(int m=0;m<board.size();m++){
@@ -60,14 +59,6 @@ bool solve (vector<vector<char>> &board,int i,int j){
 }
 
 int main() {
-    // enter the initial configuration of the board 
-       vector<vector<char>>board(9,vector<char>(9,'0'));
-       cout<<"Enter the 9*9 sudoku :\n\n";
-      for(int i=0;i<9;i++){
-        for(int j=0;j<9;j++){
-            cin>>board[i][j];
-        }
-    }
     int ni=0,nj=0;//ni=next i,nj=next j
     solve(board,ni,nj);
 

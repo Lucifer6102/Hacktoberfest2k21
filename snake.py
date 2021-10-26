@@ -20,8 +20,6 @@ def game(comp, you):
             return True
 
 
-print("Comp Turn: Snake(s) Water(w) or Gun(g)?")
-
 randNo = random.randint(1, 3)
 
 if randNo == 1:
