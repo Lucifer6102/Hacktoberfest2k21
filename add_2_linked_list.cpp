@@ -14,16 +14,6 @@ Node* reverseList( Node *head)
     head1=prev;
     return head1;
 }
-int length(Node* head)
-{
- int c=0;
- while(head!=NULL)
- {
-     head=head->next;   
-     c++;
- } // while loop ends here
- return c;
-}
 struct Node* addTwoLists(struct Node* first, struct Node* second)
 {
     Node* small;
