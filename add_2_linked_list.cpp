@@ -21,7 +21,7 @@ int length(Node* head)
  {
      head=head->next;   
      c++;
- } // while loop ends here
+ }
  return c;
 }
 struct Node* addTwoLists(struct Node* first, struct Node* second)
